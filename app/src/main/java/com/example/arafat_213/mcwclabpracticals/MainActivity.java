@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
                 if (intent != null)
                     startActivity(intent);
                 break;
+            case R.id.practical4:
+                intent = new Intent(MainActivity.this, Practical4.class);
+                if (intent != null)
+                    startActivity(intent);
+                break;
             default:
                 Toast.makeText(MainActivity.this, "Practical is not added yet", Toast.LENGTH_LONG).show();
                 break;

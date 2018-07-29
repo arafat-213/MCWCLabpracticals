@@ -45,11 +45,11 @@ public class Practical3 extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.btnCel:
                 celsiusTemp = (inputTemp - 32) / 1.8;
-                Toast.makeText(Practical3.this, inputTemp + " F = " + celsiusTemp + " C", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Practical3.this, inputTemp + "  ̊F = " + celsiusTemp + "  ̊C", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btnFaren:
                 fahrenheaitTemp = inputTemp * 1.8 + 32;
-                Toast.makeText(Practical3.this, inputTemp + " C = " + fahrenheaitTemp + " F", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Practical3.this, inputTemp + "  ̊C = " + fahrenheaitTemp + "  ̊F", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
