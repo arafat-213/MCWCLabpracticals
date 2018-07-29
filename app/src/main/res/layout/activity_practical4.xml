@@ -19,7 +19,6 @@
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:hint="Enter name"
                 android:inputType="textPersonName" />
 
@@ -55,7 +54,7 @@
                 android:id="@+id/actCountry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:completionThreshold="2"
+                android:completionThreshold="1"
                 android:hint="Enter country" />
 
             <LinearLayout
@@ -76,7 +75,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_weight="0.5"></Spinner>
+                    android:layout_weight="0.5" />
             </LinearLayout>
 
             <LinearLayout
@@ -91,6 +90,7 @@
                     android:textSize="36px" />
 
                 <RadioGroup
+                    android:id="@+id/rgGender"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
@@ -119,26 +119,45 @@
                     android:textSize="36px" />
 
                 <CheckBox
+                    android:id="@+id/cbCoding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Coding" />
 
                 <CheckBox
+                    android:id="@+id/cbGaming"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Gaming" />
 
                 <CheckBox
+                    android:id="@+id/cbSinging"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Singing" />
             </LinearLayout>
 
             <Switch
+                android:id="@+id/married"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Married ?  "
                 android:textSize="36px" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="120dp"
+                android:background="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                android:text="submit" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
