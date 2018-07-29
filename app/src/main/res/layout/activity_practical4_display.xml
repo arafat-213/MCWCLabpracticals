@@ -75,4 +75,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:textSize="36px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="isVoter"
+        android:text="Is voter ? " />
 </LinearLayout>

@@ -3,12 +3,14 @@ package com.example.arafat_213.mcwclabpracticals;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Practical4Display extends AppCompatActivity {
 
     private TextView tvName, tvAge, tvDOB, tvEmail, tvPhone, tvHobbies, tvGender, tvCountry, tvState, tvMarried;
-
+    int age;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +37,15 @@ public class Practical4Display extends AppCompatActivity {
         tvCountry.setText("Cuntry : " + intent.getStringExtra("Country"));
         tvState.setText("State : " + intent.getStringExtra("State"));
         tvMarried.setText("Married ?  : " + intent.getStringExtra("Married"));
+        age = Integer.parseInt(intent.getStringExtra("Age"));
+    }
+
+    public void isVoter(View view) {
+
+        if (age >= 18)
+            Toast.makeText(getApplicationContext(), " Voter ", Toast.LENGTH_SHORT).show();
+        else
+            Toast.makeText(getApplicationContext(), "Not a voter ", Toast.LENGTH_SHORT).show();
     }
 }
 

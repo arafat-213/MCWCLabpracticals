@@ -14,7 +14,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
-import android.widget.Toast;
 
 public class Practical4 extends AppCompatActivity {
 
@@ -61,7 +60,6 @@ public class Practical4 extends AppCompatActivity {
         actCountry.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(), adapterView.getItemAtPosition(i) + " Selected ", Toast.LENGTH_SHORT).show();
                 selectedCountry = adapterView.getItemAtPosition(i).toString();
                 switch (selectedCountry) {
                     case "India":
