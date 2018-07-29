@@ -37,3 +37,4 @@ public class Practical4Display extends AppCompatActivity {
         tvMarried.setText("Married ?  : " + intent.getStringExtra("Married"));
     }
 }
+
