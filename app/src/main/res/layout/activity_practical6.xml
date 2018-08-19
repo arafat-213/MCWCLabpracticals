@@ -13,8 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
-        android:text="The Best News Papper App Ever"
-        android:textColor="#036eff"
+        android:text="The Greatest News Paper App Ever"
+        android:textColor="#000000"
         android:textSize="24sp" />
 
     <TextView
@@ -25,6 +25,7 @@
         android:gravity="center"
         android:padding="8dp"
         android:text="Item 1"
+        android:onClick="displayNewsPaper"
         android:textSize="32sp" />
 
     <TextView
@@ -35,6 +36,7 @@
         android:gravity="center"
         android:padding="8dp"
         android:text="Item 2"
+        android:onClick="displayNewsPaper"
         android:textSize="32sp" />
 
     <TextView
@@ -44,6 +46,7 @@
         android:background="#00a2ff"
         android:gravity="center"
         android:padding="8dp"
+        android:onClick="displayNewsPaper"
         android:text="Item 3"
         android:textSize="32sp" />
 
@@ -55,7 +58,7 @@
         android:gravity="center"
         android:padding="8dp"
         android:text="Item 4"
+        android:onClick="displayNewsPaper"
         android:textSize="32sp" />
-
 
 </LinearLayout>

@@ -46,6 +46,53 @@
                 android:onClick="goToPractical"
                 android:text="Practical 4" />
 
+            <Button
+                android:id="@+id/practical5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goToPractical"
+                android:text="Practical 5" />
+
+            <Button
+                android:id="@+id/practical6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goToPractical"
+                android:text="Practical 6" />
+
+            <Button
+                android:id="@+id/practical7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goToPractical"
+                android:text="Practical 7" />
+
+            <Button
+                android:id="@+id/practical8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goToPractical"
+                android:text="Practical 8" />
+
+            <Button
+                android:id="@+id/practical9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goToPractical"
+                android:text="Practical 9" />
+
+            <Button
+                android:id="@+id/practical10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="goToPractical"
+                android:text="Practical 10" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
