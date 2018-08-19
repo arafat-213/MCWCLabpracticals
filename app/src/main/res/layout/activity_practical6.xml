@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#90ff58"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Practical6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="The Best News Papper App Ever"
+        android:textColor="#036eff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0082ff"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Item 1"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0091ff"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Item 2"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00a2ff"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Item 3"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4cb4ff"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Item 4"
+        android:textSize="32sp" />
+
+
+</LinearLayout>

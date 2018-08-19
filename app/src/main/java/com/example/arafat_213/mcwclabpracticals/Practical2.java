@@ -14,6 +14,6 @@ public class Practical2 extends AppCompatActivity {
     }
 
     public void helloWorld(View view) {
-        Toast.makeText(Practical2.this, "Helllo, Welcome to android lab", Toast.LENGTH_LONG).show();
+        Toast.makeText(Practical2.this, "Hello, Welcome to android lab", Toast.LENGTH_LONG).show();
     }
 }
