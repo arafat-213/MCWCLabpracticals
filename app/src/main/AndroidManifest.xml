@@ -26,7 +26,8 @@
         <activity android:name=".Practical6" />
         <activity android:name=".Practical6Display" />
         <activity android:name=".Practical9" />
-        <activity android:name=".Practical9Display"></activity>
+        <activity android:name=".Practical9Display" />
+        <activity android:name=".Practical5"></activity>
     </application>
 
 </manifest>

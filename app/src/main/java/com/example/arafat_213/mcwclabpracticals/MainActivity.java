@@ -33,11 +33,17 @@ public class MainActivity extends AppCompatActivity {
                 if (intent != null)
                     startActivity(intent);
                 break;
+            case R.id.practical5:
+                intent = new Intent(MainActivity.this, Practical5.class);
+                if (intent != null)
+                    startActivity(intent);
+                break;
             case R.id.practical6:
                 intent = new Intent(MainActivity.this, Practical6.class);
                 if (intent != null)
                     startActivity(intent);
                 break;
+
             case R.id.practical9:
                 intent = new Intent(MainActivity.this, Practical9.class);
                 if (intent != null)
