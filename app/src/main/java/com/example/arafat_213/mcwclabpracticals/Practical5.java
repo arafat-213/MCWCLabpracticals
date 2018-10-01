@@ -37,7 +37,7 @@ public class Practical5 extends AppCompatActivity {
                 ImageView imageView = new ImageView(getApplicationContext());
                 imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
                 imageView.setLayoutParams(new ImageSwitcher.LayoutParams(
-                        ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
+                        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
                 return  imageView;
             }
         });

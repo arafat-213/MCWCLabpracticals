@@ -4,16 +4,26 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button practical8;
     private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        practical8 = findViewById(R.id.practical8);
+        practical8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(MainActivity.this, Practical8.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void goToPractical(View view) {
@@ -43,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 if (intent != null)
                     startActivity(intent);
                 break;
-
             case R.id.practical9:
                 intent = new Intent(MainActivity.this, Practical9.class);
                 if (intent != null)
