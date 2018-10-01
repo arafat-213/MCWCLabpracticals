@@ -1,4 +1,4 @@
-package com.example.arafat_213.mcwclabpracticals;
+package com.example.arafat_213.mcwclabpracticals.Practical8;
 
 import android.app.ListActivity;
 import android.support.annotation.Nullable;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import com.example.arafat_213.mcwclabpracticals.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

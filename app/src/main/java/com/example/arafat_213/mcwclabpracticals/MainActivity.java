@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.arafat_213.mcwclabpracticals.Practical8.Practical8;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button practical8;
@@ -16,14 +18,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        practical8 = findViewById(R.id.practical8);
-        practical8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                intent = new Intent(MainActivity.this, Practical8.class);
-                startActivity(intent);
-            }
-        });
     }
 
     public void goToPractical(View view) {

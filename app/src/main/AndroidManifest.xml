@@ -28,11 +28,11 @@
         <activity android:name=".Practical9" />
         <activity android:name=".Practical9Display" />
         <activity android:name=".Practical5" />
-        <activity android:name=".ItemListActivity" />
-        <activity android:name=".AddItemActivity" />
-        <activity android:name=".UpdateItemInfoActivity" />
-        <activity android:name=".RemoveItemInfoActivity" />
-        <activity android:name=".Practical8"></activity>
+        <activity android:name=".Practical8.ItemListActivity" />
+        <activity android:name=".Practical8.AddItemActivity" />
+        <activity android:name=".Practical8.UpdateItemInfoActivity" />
+        <activity android:name=".Practical8.RemoveItemInfoActivity" />
+        <activity android:name=".Practical8.Practical8"></activity>
     </application>
 
 </manifest>

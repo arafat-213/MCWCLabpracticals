@@ -1,4 +1,4 @@
-package com.example.arafat_213.mcwclabpracticals;
+package com.example.arafat_213.mcwclabpracticals.Practical8;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

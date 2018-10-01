@@ -1,4 +1,4 @@
-package com.example.arafat_213.mcwclabpracticals;
+package com.example.arafat_213.mcwclabpracticals.Practical8;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.arafat_213.mcwclabpracticals.R;
 
 import java.util.List;
 

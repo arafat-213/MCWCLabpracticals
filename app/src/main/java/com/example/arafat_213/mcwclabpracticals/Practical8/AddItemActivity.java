@@ -1,4 +1,4 @@
-package com.example.arafat_213.mcwclabpracticals;
+package com.example.arafat_213.mcwclabpracticals.Practical8;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.arafat_213.mcwclabpracticals.R;
 
 public class AddItemActivity extends AppCompatActivity {
 

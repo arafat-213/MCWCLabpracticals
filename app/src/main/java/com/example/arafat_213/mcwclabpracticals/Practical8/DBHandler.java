@@ -1,10 +1,12 @@
-package com.example.arafat_213.mcwclabpracticals;
+package com.example.arafat_213.mcwclabpracticals.Practical8;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+
 
 import java.util.ArrayList;
 import java.util.List;
